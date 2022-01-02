@@ -1,3 +1,30 @@
+<html>
+    <head></head>
+        <body>
+            <style>
+                h1{
+                    font-size: 40px;
+                    color:blue;
+                }
+                body{
+                    background-color:skyblue;
+                }
+                nav{
+    background-color: #333;
+    overflow: hidden;
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    float: left;
+
+                </style>
+                <nav>
+        <a href="index.php">Home</a>
+      
+    </nav>
 <?php
 $server="localhost";
 $username="root";
@@ -14,9 +41,9 @@ if(isset($_POST['submit'])){
         $dod=$_POST['dod'];
         $place=$_POST['place'];
         $query="INSERT INTO prod(sno,id,nop,ct,doa,dod,place)values('$sno','$id','$nop','$ct','$doa','$dod','$place')";
-        $run=mysqli_query($conn,$query) or (mysqli_error());
+        $run=mysqli_query($conn,$query) or die(mysqli_error());
         if($run){
-            echo "<br><br><br><br><br><center>Insertion Sucessfully Completed</center>";
+            echo "<br><br><br><br><br><center><h1>Insertion Sucessfully Completed</h1></center>";
         }
         else{
             echo "<br><br><br><br><br><center>Insertion Failed</center>";
@@ -27,3 +54,4 @@ if(isset($_POST['submit'])){
     }
 }
 ?>
+</html>
