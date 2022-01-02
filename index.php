@@ -69,6 +69,6 @@ footer a{
         <a href="#">Privacy Policy</a>
         <a href="#">Refund Policy</a>
         <a class="copyright" href="#">&copy; 2021  | Mahindra Logistics Kochi</a>
-    </footer>
+   </footer>
 
 </html>
