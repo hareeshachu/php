@@ -53,6 +53,7 @@ footer a{
     float: right;
 }
     </style>
+    
     <header>
         <h1>MAHINDRA LOGISTICS KOCHI</h1>
     </header>
@@ -69,6 +70,6 @@ footer a{
         <a href="#">Privacy Policy</a>
         <a href="#">Refund Policy</a>
         <a class="copyright" href="#">&copy; 2021  | Mahindra Logistics Kochi</a>
-   </footer>
+    </footer>
 
 </html>
