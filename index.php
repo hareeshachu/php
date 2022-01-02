@@ -53,9 +53,6 @@ footer a{
     float: right;
 }
     </style>
-    <?php
-    include "config.php";
-    ?>
     <header>
         <h1>MAHINDRA LOGISTICS KOCHI</h1>
     </header>
