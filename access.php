@@ -27,7 +27,7 @@ input[type="submit"]:hover{
     background-color: #4caf84;
 }
 
-       </style>
+        </style>
         <?php
         include "config.php";
         ?>
