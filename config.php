@@ -6,9 +6,6 @@
                     font-size: 40px;
                     color:blue;
                 }
-                body{
-                    background-color:skyblue;
-                }
                 nav{
     background-color: #333;
     overflow: hidden;
@@ -21,10 +18,7 @@ nav a{
     float: left;
 
                 </style>
-                <nav>
-        <a href="index.php">Home</a>
-      
-    </nav>
+            
 <?php
 $server="localhost";
 $username="root";
@@ -43,7 +37,7 @@ if(isset($_POST['submit'])){
         $query="INSERT INTO prod(sno,id,nop,ct,doa,dod,place)values('$sno','$id','$nop','$ct','$doa','$dod','$place')";
         $run=mysqli_query($conn,$query) or die(mysqli_error());
         if($run){
-            echo "<br><br><br><br><br><center><h1>Insertion Sucessfully Completed</h1></center>";
+            echo "<nav><a href=index.php>Home</a></nav><br><br><br><br><br><center><h1>Insertion Sucessfully Completed</h1></center>";
         }
         else{
             echo "<br><br><br><br><br><center>Insertion Failed</center>";
