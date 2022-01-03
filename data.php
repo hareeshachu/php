@@ -12,7 +12,6 @@ body{
     margin:15px 30px;
     font-size: 17px;
     padding: 8px;
-
 }
 .container {
     background-color: #f2f2f2;
